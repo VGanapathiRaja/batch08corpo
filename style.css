@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+:root{
+    --primary-color: #ef3023;
+    --secondary-color: #592671;
+    --third-color: #f4c609;
+    --fourth-color: #5e06015c;
+}
+
+.menubar .vgrcorpo{
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.heropart img{
+    height: 100vh;
+}
+.heropart .carousel-caption{
+    background-color: var(--fourth-color);
+    border-top: 5px solid var(--third-color);
+}
+.historysection .outhistory{
+    background-color: #c2c0c043;
+}
+.outhistory ul li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.historysection ul i{
+    color: #ef3023;
+    font-size: 20px;
+    padding: 0 5px;
+}
+.historysection .historyimg img{
+    width: 100%;
+    height: 100vh
+}
+.headingpart h1{
+    font-size: 36px;
+    font-style: italic;
+    text-shadow: 5px -2px 5px var(--secondary-color);
+}
+.headingpart span{
+    color: var(--primary-color);
+    font-size: 46px;
+}
+.adsection .adbox{
+    background-color: #ebd7877c;
+    padding: 35px 35px;
+    margin: 10px 5px;
+    text-align: center;
+}
+.adbox:hover {
+    background-color: #f4c609;
+    color: #592671;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.adbox:hover .icon{
+    background-color: #483a01;
+    color: #fff;
+}
+.adicon .icon{
+    background-color: #5926714d;
+    color: #3f3300;
+    padding: 10px;
+    margin: 5px;
+    font-size: 36px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.adsection{
+    padding: 75px 0;
+    background-color: #d6d6d637;
+}
+
+.portfoliomenus img{
+    width: 100%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+        .heropart img{
+            height: inherit;
+        }
+        .historysection .historyimg img {
+            height: 75vh;
+        }
+}
